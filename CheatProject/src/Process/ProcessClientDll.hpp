@@ -10,7 +10,7 @@
 
 #include <Windows.h>
 #include <tlhelp32.h>
-#include <MemoryManager.hpp>
+#include "../Tools/MemoryManager.hpp"
 
 #define RADAR_BASE_OFFSET 0x5071E6C
 

@@ -1,7 +1,7 @@
 
 #include <iostream>
-#include <ProcessClientDll.hpp>
-#include <MemoryManager.hpp>
+#include "Process/ProcessClientDll.hpp"
+#include "Tools/MemoryManager.hpp"
 
 int main()
 {

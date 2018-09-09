@@ -1,11 +1,11 @@
 /*
  * MemoryManager.cpp
  *
- *  Created on: 30 août 2018
+ *  Created on: 30 aoï¿½t 2018
  *      Author: Nous
  */
 
-#include <MemoryManager.hpp>
+#include "MemoryManager.hpp"
 
 ModuleWrapper::ModuleWrapper(MODULEENTRY32* module) {
    ModuleWrapper::module = module;

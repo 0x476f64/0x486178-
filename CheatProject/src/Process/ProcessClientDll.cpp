@@ -5,7 +5,7 @@
  *      Author: Nous
  */
 
-#include <ProcessClientDll.hpp>
+#include "ProcessClientDll.hpp"
 
 void processClientModule(MemoryManager* memManager, MODULEENTRY32* clientModule) {
    // Get module base address
