@@ -10,11 +10,13 @@ int main()
       // debug
       //memManager -> readAll();
 
+
       if (memManager->attach("csgo.exe")) {
          if (memManager->grabModule("client_panorama.dll")) {
             for (ModuleWrapper modWrapper : memManager->getModules()) {
                MODULEENTRY32* clientModule = modWrapper.getModule();
                processClientModule(memManager, clientModule);
+
             }
          }
          else {

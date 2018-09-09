@@ -1,7 +1,7 @@
 /*
  * MemoryManager.hpp
  *
- *  Created on: 30 août 2018
+ *  Created on: 30 aoï¿½t 2018
  *      Author: Nous
  */
 
@@ -49,6 +49,8 @@ public:
    HANDLE getHandle();
    DWORD getProcId();
    std::set<ModuleWrapper> getModules();
+
+
 
    void readAll();
 };
