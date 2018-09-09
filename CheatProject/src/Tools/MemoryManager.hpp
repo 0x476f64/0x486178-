@@ -50,7 +50,7 @@ public:
 
       template<class T>
       bool writeMem(DWORD dwAddress, const T& inputValue) {
-         return WriteProcessMemory(m_hProcess, reinterpret_cast<LPVOID>(dwAddress), inputValue,
+         return WriteProcessMemory(m_hProcess, reinterpret_cast<LPVOID>(dwAddress), reinterpret_cast<LPCVOID>(inputValue),
                sizeof(T),
                NULL) == TRUE;
       }
